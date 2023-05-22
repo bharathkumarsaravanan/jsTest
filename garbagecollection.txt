@@ -1,0 +1,19 @@
+Garbage collections
+
+If we create a object like this,
+
+let obj = {
+    name: "javascript"
+}
+
+here the variable obj not stored the object value its stored the object reference.  That means the object {name: "javascript"} is stored in someother place in the system memory.
+And we are storing that memory address in the variable obj.  This is how object works. So if the object is created and refered by some refered by someother variable only the object 
+will alive.  
+
+Consider,
+if I created a obj above if I remove the object reference in the variable
+
+obj = null;
+
+So that object referenced not stored in the variable that means we can't able to access that object.  In this scenario to prevent the unwanted storage js engine will remove that 
+object from the memory.  Its called garbage collections.

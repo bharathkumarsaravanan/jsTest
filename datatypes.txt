@@ -1,0 +1,14 @@
+Datatypes
+
+
+Number -  used to store a integer numbers.  It can't hold the number greater that 2^53 - 1
+
+BigInt - used to store a numbers greater than 2^53 - 1
+
+String - used to store a charecters like "something"
+
+Null - empty value assigned by user
+
+Undefined - If we not assign any values to variable
+
+Object - It can store properties.  Like, {name: "javascript"}.  Every properties should have key and value. 
